@@ -12,14 +12,13 @@
                 HorizontalExpand="True"
                 VerticalExpand="False"
                 StyleClasses="ButtonSquare"
-                Margin="0"
-                ToolTip="foobar">
+                Margin="0">
             <BoxContainer Orientation="Horizontal" Margin="0">
-                <TextureRect Name="Texture"
+                <TextureRect Name="Showcase"
                              HorizontalExpand="False"
                              VerticalExpand="False"
                              Margin="1"
-                             TextureScale="1 1"/> <!-- goobstation Tech Tree port-->
+                             TextureScale="1 1"/>
                 <Control MinWidth="5"/>
                 <RichTextLabel Name="NameLabel" StyleClasses="LabelSubText" VerticalAlignment="Center"/>
             </BoxContainer>

@@ -73,8 +73,8 @@ public abstract class SharedResearchSystem : EntitySystem
         if (!component.SupportedDisciplines.Contains(tech.Discipline))
             return false;
 
-        if (tech.Tier > disciplineTiers[tech.Discipline])
-            return false;
+        //if (tech.Tier > disciplineTiers[tech.Discipline]) //Goobstation RND console rework - has removed disipline checks
+        //   return false;
 
         if (component.UnlockedTechnologies.Contains(tech.ID))
             return false;
